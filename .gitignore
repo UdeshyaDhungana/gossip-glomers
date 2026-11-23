@@ -1,0 +1,11 @@
+# Go build output (binary named after each module, e.g. maelstrom-kafka)
+maelstrom-*
+*.exe
+*.test
+*.out
+
+# Maelstrom test results
+store/
+
+# macOS
+.DS_Store
