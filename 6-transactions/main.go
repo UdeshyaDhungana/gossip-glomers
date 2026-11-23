@@ -144,7 +144,7 @@ func main() {
 		centralVersion, err := kv.ReadInt(ctx, versionKey)
 		if err != nil {
 			if maelstrom.ErrorCode(err) == maelstrom.KeyDoesNotExist {
-				centralVersion = 0
+				centralVersion = 1
 			} else {
 				return err
 			}
